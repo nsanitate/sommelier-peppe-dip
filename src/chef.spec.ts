@@ -18,7 +18,7 @@ describe('Chef', () => {
         expect(actual).to.equal('champagne');
     });
 
-    xit('dovrebbe ricevere consigli sul vino da Nicola', () => {
+    it('dovrebbe ricevere consigli sul vino da Nicola', () => {
         // Arrange
         const sommelier = new SommelierNicola();
         const chef = new Chef(sommelier);

@@ -1,9 +1,9 @@
-import { SommelierPeppe } from './sommelier-peppe';
+import { ISommelier } from './sommelier';
 
 export class Chef {
 
     constructor(
-        private sommelier: SommelierPeppe
+        private sommelier: ISommelier
     ) { }
 
     chiediConsiglioSulVino() {
